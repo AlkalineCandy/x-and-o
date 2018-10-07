@@ -1,0 +1,11 @@
+#board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+}
+  
+  #board > div {
+    background-color: rgb(170, 230, 230);
+    border-radius: 5px;
+    padding: 20px;
+  }
